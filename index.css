@@ -1,0 +1,89 @@
+/* import fonts from google fonts */
+
+/* import montserrat from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* import nunito from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&display=swap');
+
+/* import poppins from google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
+
+/* end import */
+
+* {
+text-align: center;
+font-family: 'Nunito', arial, verdana, sans-serif;
+scroll-behavior: smooth;
+}
+
+body {
+background-color: #12093b;
+color: #ffffff;
+}
+
+a {
+color: white;
+}
+
+img {
+display: inline;
+border: 2px solid #12093b;
+border-radius: 10%;
+}
+
+.montserrat-font {
+font-family: 'Montserrat', arial, verdana, sans-serif;
+}
+
+.gray-text {
+color: gray;
+}
+
+.info-text {
+font-family: 'Poppins', arial, verdana, sans-serif;
+}
+
+.info-text-mini {
+font-family: 'Poppins', arial, verdana, sans-serif;
+font-size: 15px;
+border: 0.5px solid #12093b;
+}
+
+.small-text {
+display: block;
+top: -3px;
+bottom: 10px;
+}
+
+.info-box {
+border: 3px dashed white;
+border-radius: 10px;
+width: 75%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+
+.info-box-mini {
+border: 3px dashed white;
+border-radius: 10px;
+width: 70%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+
+.info-box-mini h2 {
+font-size: 18px;
+border: 1px #12093b;
+}
+
+th, td {
+font-size: 90%;
+border-left: 0.5px solid white;
+border-right: 0.5px solid white;
+}
